@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $SOURCE_CODE "
   git clone $SOURCE_CODE /New-bot
 fi
-cd /Channel-Mdisk-Converter
+cd /New-bot
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 main.py
